@@ -13,6 +13,7 @@ namespace MagicVilla_API.Datos
         //Detallamos los modelos que queremos que se creen en la base de datos
         //Normalmente se coloca el nombre en plural
         public DbSet<Villa> Villas { get; set; }
+        public DbSet<NumeroVilla> NumeroVillas { get; set; }
 
 
         //Cuando se ejecuta el comando add-migration
